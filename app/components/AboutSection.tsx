@@ -61,8 +61,8 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-white texxt-base md:text-lg">
-          I'm passionate about solving complex problems and creating effective and scalable solutions.<br></br>
-          Now I'm working as Java Developer at Thinksoft Argentina, a company that develops software for the health industry.
+          I&apos;m passionate about solving complex problems and creating effective and scalable solutions.<br></br>
+          Now I&apos;m working as Java Developer at Thinksoft Argentina, a company that develops software for the health industry.
           <br></br>
           I feel comfortable being part of a team, and I value open and transparent communication.
           </p>
