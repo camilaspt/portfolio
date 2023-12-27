@@ -28,7 +28,7 @@ export const HeaderSection = () => {
                 <p className="text-[#ADB7BE] mb-6 textl-lg lg:text-xl">
                     I&apos;m a Software Engineer</p>
                 <div>
-                    <button className="bg-gradient-to-br from-yellow-400 via-yellow-500 to-orange-600 hover:bg-slate-200 text-white px-6 py-3 rounded-full mr-4 ">
+                    <button className="bg-gradient-to-br from-yellow-400 via-yellow-500 to-orange-600 hover:bg-slate-200 text-white px-6 py-3 rounded-full m-4 md:ml-0 lg:ml-0">
                         Contact me
                     </button>
                     <button className="m-4 bg-gradient-to-br from-yellow-400 via-yellow-500 to-orange-600 px-1 py-1  text-white rounded-full">
