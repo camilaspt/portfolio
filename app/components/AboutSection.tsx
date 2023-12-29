@@ -31,6 +31,7 @@ const TAB_DATA: TabData[] = [
     content: (
       <ul className="list-disc pl-2">
         <li>Information Systems Engineering - Universidad Tecnológica Nacional</li>
+        <li>Ingles - B2</li>
       </ul>
     ),
   },
@@ -47,6 +48,7 @@ const TAB_DATA: TabData[] = [
 ];
 
 const AboutSection = () => {
+
   const [tab, setTab] = useState("skills");
   const [isPending, startTransition] = useTransition();
 
@@ -58,17 +60,17 @@ const AboutSection = () => {
 
   return (
     <section className="text-white">
-      <div className="gap-8 items-center py-8 px-4 xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-16">
+      <div className="gap-8 items-center py-8 px-4 xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-16 lg:mt-10">
         <div>
           <Carousel>
-            <Card title="Card 1" content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum." />
-            <Card title="Card 2" content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum." />
-            <Card title="Card 3" content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum." />
+            <Card title="Gestor de pedidos" content="Proyecto freelance para gestionar pedidos de una empresa exportadora de paltas." />
+            <Card title="Anotador" content="App desarrollada en Angular que consiste en un anotador de tareas pendientes." />
+            <Card title="Crud Libreria" content="Crud de una libreria desarrollado en Java/Spring con base de datos MySQL." />
           </Carousel>
         </div>
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
-          <p className="text-white texxt-base md:text-lg">
+          <p className="text-white text-base md:text-lg">
           I&apos;m passionate about solving complex problems and creating effective and scalable solutions.<br></br>
           Now I&apos;m working as Java Developer at Thinksoft Argentina, a company that develops software for the health industry.
           <br></br>
@@ -79,19 +81,22 @@ const AboutSection = () => {
               selectTab={() => handleTabChange("skills")}
               active={tab === "skills"}
             >
-              Skills
+              {" "}
+              Skills{" "}
             </TabButton>
             <TabButton
               selectTab={() => handleTabChange("education")}
               active={tab === "education"}
             >
-              Education
+             {" "}
+              Education{" "}
             </TabButton>
             <TabButton
               selectTab={() => handleTabChange("certifications")}
               active={tab === "certifications"}
             >
-              Certifications
+              {" "}
+              Certifications{" "}
             </TabButton>
           </div>
           <div className="mt-8">
