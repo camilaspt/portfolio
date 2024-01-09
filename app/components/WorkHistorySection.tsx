@@ -21,7 +21,7 @@ const TAB_DATA: TabData[] = [
                 <i className="text-white">Oct 2022 - Present</i>
                 <div className="mt-2">
                     ThinkSoft is a company that provides software solutions for the healthcare sector.
-                    I am part of the development team of the company's main product, which is a web application that allows
+                    I am part of the development team of the company&apos;s main product, which is a web application that allows
                     the management of medical centers, health plans and the financial part of the business.
                     My work consist of developing new features, designing and implementing new modules, managing the database schema
                     and fixing bugs. <br></br>The tech stack consist of:
@@ -43,7 +43,7 @@ const TAB_DATA: TabData[] = [
                 <i className="text-white">Oct 2023 - Dic 2024</i>
                 <div className="mt-2">
                     Developed the frontend for a web gestion system for the company Avoworks.
-                    The system allows the management of the company's clients, orders, products. It offers graphics and reports,
+                    The system allows the management of the company&apos;s clients, orders, products. It offers graphics and reports,
                     and tracks of the status of the orders. <br></br>This app was developed using Angular, Bootstrap and Angular Material.
                 </div>
             </div>
@@ -105,7 +105,7 @@ const WorkHistorySection: React.FC<WorkHistorySectionProps> = () => {
                     </TabButton>
                 </div>
                 <div className="flex flex-col w-3/5">
-                    <h2 className="text-4xl font-bold text-white mb-6">WorkHistory</h2>
+                    <h2 className="text-4xl font-bold text-white mb-6">Work History</h2>
                     {TAB_DATA.find((t) => t.id === tab)?.content}
                 </div>
             </div>
