@@ -77,7 +77,7 @@ const WorkHistorySection: React.FC<WorkHistorySectionProps> = () => {
 
     return (
         <section>
-            <div className="flex flex-row">
+            <div className="flex flex-row mt-10 sm:mt-0">
                 <div className="flex flex-col w-2/5 pr-10 mt-20">
                     <TabButton
                         selectTab={() => handleTabChange("ThinkSoft")}

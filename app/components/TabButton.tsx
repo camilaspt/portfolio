@@ -2,10 +2,10 @@ import React from "react";
 import { motion } from "framer-motion";
 
 interface TabButtonProps {
-    active: boolean;
-    selectTab: () => void;
-    children: React.ReactNode;
-    origin: string;
+  active: boolean;
+  selectTab: () => void;
+  children: React.ReactNode;
+  origin: string;
 }
 
 const variants = {
@@ -20,9 +20,9 @@ const TabButton: React.FC<TabButtonProps> = ({ active, selectTab, children, orig
   if (origin === 'workHistorySection') {
     addedClasses = "border-l-4 border-orange-500";
     addMargin = "";
-    addHeight = "h-14 mt-8"; 
+    addHeight = "h-24 flex flex-wrap justify-center content-center";
   } else {
-    addMargin = "mt-2"
+    addMargin = "mt-2";
   }
   const buttonClasses = active
     ? "text-white"
