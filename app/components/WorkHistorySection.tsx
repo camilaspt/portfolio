@@ -40,7 +40,7 @@ const TAB_DATA: TabData[] = [
         id: "Freelance",
         content: (
             <div>
-                <i className="text-white">Oct 2023 - Dic 2024</i>
+                <i className="text-white">Oct 2023 - Dec 2024</i>
                 <div className="mt-2">
                     Developed the frontend for a web gestion system for the company Avoworks.
                     The system allows the management of the company&apos;s clients, orders, products. It offers graphics and reports,

@@ -31,8 +31,9 @@ const TAB_DATA: TabData[] = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Information Systems Engineering - Universidad Tecnológica Nacional</li>
-        <li>Ingles - B2</li>
+        <li>Information Systems Engineering -  National Technological University</li>
+        <li>English - C2</li>
+        <li>Spanish - Native</li>
       </ul>
     ),
   },
@@ -66,11 +67,11 @@ const AboutSection = () => {
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-white text-base md:text-lg">
             I&apos;m passionate about solving complex problems and creating effective and scalable solutions.<br></br>
-            Now I&apos;m working as Java Developer at Thinksoft Argentina, a company that develops software for the health industry.
+            Now I&apos;m working as Java Developer at Thinksoft Argentina -a company that develops software for the health industry.
             <br></br>
-            I feel comfortable being part of a team, and I value open and transparent communication.
+            I feel comfortable being part of a team and I value open and transparent communication.
           </p>
-          <div className="flex flex-row justify-start">
+          <div className="flex flex-row justify-start mt-4">
             <TabButton
               selectTab={() => handleTabChange("skills")}
               active={tab === "skills"}
