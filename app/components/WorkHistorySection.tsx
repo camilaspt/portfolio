@@ -24,12 +24,14 @@ const TAB_DATA: TabData[] = [
                     I am part of the development team of the company&apos;s main product, which is a web application that allows
                     the management of medical centers, health plans and the financial part of the business.
                     My work consist of developing new features, designing and implementing new modules, managing the database schema
-                    and fixing bugs. <br></br>The tech stack consist of:
+                    and fixing bugs. I also developed an interface with the company Philips for connect imaging diagnostic equipment with our app
+                    using Mirth channels and HL7 Standards. <br></br>The tech stack consist of:
                     <ul className="list-disc list-inside"   >
                         <li>Java</li>
                         <li>Hibernate</li>
                         <li>Oracle</li>
                         <li>PL/SQL</li>
+                        <li>HL7</li>
                     </ul>
                 </div>
             </div>
@@ -43,7 +45,7 @@ const TAB_DATA: TabData[] = [
                 <i className="text-white">Oct 2023 - Dec 2024</i>
                 <div className="mt-2">
                     Developed the frontend for a web gestion system for the company Avoworks.
-                    The system allows the management of the company&apos;s clients, orders, products. It offers graphics and reports,
+                    The system allows the management of the company&apos;s clients, orders and products. It offers graphics, reports,
                     and tracks of the status of the orders. <br></br>This app was developed using Angular, Bootstrap and Angular Material.
                 </div>
             </div>
