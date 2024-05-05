@@ -20,7 +20,8 @@ const TAB_DATA: TabData[] = [
       <ul className="list-disc pl-2">
         <li>Java</li>
         <li>Angular</li>
-        <li>Oracle</li>
+        <li>Spring</li>
+        <li>Node</li>
         <li>Next.js</li>
         <li>PL/SQL</li>
       </ul>
@@ -67,7 +68,7 @@ const AboutSection = () => {
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-white text-base md:text-lg">
             I&apos;m passionate about solving complex problems and creating effective and scalable solutions.<br></br>
-            Now I&apos;m working as Java Developer at Thinksoft Argentina -a company that develops software for the health industry.
+            Now I&apos;m working as Software Developer at Kretz Argentina -a company that designs solutions for retails and industry.
             <br></br>
             I feel comfortable being part of a team and I value open and transparent communication.
           </p>

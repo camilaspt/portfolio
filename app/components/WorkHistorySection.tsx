@@ -14,11 +14,36 @@ interface TabData {
 
 const TAB_DATA: TabData[] = [
     {
+        title: "Kretz",
+        id: "Kretz",
+        content: (
+            <div>
+                <i className="text-white">Mar 2024 - Present</i><br />
+                <i className="text-white">Hybrid</i>
+                <div className="mt-2">
+                    Kretz is a technology company based in Argentina. 
+                    The main products of the company are weight scales, self-service kiosks and more.
+                    As a member of the development team, my work consists of developing software solutions 
+                    for the company&apos;s products using various technologies. 
+                    <br></br>The tech stack consist of:
+                    <ul className="list-disc list-inside"   >
+                        <li>Java</li>
+                        <li>Spring</li>
+                        <li>Angular</li>
+                        <li>Node</li>
+                        <li>Electron</li>
+                    </ul>
+                </div>
+            </div>
+        ),
+    },
+    {
         title: "ThinkSoft",
         id: "ThinkSoft",
         content: (
             <div>
-                <i className="text-white">Oct 2022 - Present</i>
+                <i className="text-white">Oct 2022 - Mar 2024</i><br />
+                <i className="text-white">Remote</i>
                 <div className="mt-2">
                     ThinkSoft is a company that provides software solutions for the healthcare sector.
                     I am part of the development team of the company&apos;s main product, which is a web application that allows
@@ -42,7 +67,8 @@ const TAB_DATA: TabData[] = [
         id: "Freelance",
         content: (
             <div>
-                <i className="text-white">Oct 2023 - Dec 2024</i>
+                <i className="text-white">Oct 2023 - Dec 2024</i><br />
+                <i className="text-white">Remote</i>
                 <div className="mt-2">
                     Developed the frontend for a web gestion system for the company Avoworks.
                     The system allows the management of the company&apos;s clients, orders and products. It offers graphics, reports,
@@ -56,7 +82,8 @@ const TAB_DATA: TabData[] = [
         id: "Open Solutions",
         content: (
             <div>
-                <i className="text-white">Jan 2022 - Oct 2022</i>
+                <i className="text-white">Jan 2022 - Oct 2022</i><br />
+                <i className="text-white">Remote</i>
                 <div className="mt-2">
                     I was part of a team of 4 members. We developed a web application for employee management and payroll.
                     The tech stack consisted of Angular and Node.js.
@@ -68,7 +95,7 @@ const TAB_DATA: TabData[] = [
 
 const WorkHistorySection: React.FC<WorkHistorySectionProps> = () => {
     // Lógica del componente
-    const [tab, setTab] = useState("ThinkSoft");
+    const [tab, setTab] = useState("Kretz");
     const [isPending, startTransition] = useTransition();
 
     const handleTabChange = (id: any) => {
@@ -81,6 +108,14 @@ const WorkHistorySection: React.FC<WorkHistorySectionProps> = () => {
         <section>
             <div className="flex flex-row mt-10 sm:mt-0">
                 <div className="flex flex-col w-2/5 pr-10 mt-20">
+                <TabButton
+                        selectTab={() => handleTabChange("Kretz")}
+                        active={tab === "Kretz"}
+                        origin="workHistorySection"
+                    >
+                        {" "}
+                        Kretz{" "}
+                    </TabButton>
                     <TabButton
                         selectTab={() => handleTabChange("ThinkSoft")}
                         active={tab === "ThinkSoft"}

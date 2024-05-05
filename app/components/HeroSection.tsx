@@ -28,7 +28,7 @@ export const HeaderSection = () => {
                     /></h1>
                 <p className="text-[#ADB7BE] mb-6 textl-lg lg:text-xl">
                     I&apos;m a Software Engineer</p>
-                <div>
+                {/* <div>
                     <a 
                         href="https://drive.google.com/file/d/1Rx3xPnwn3EVEn2nobzHQ6WRiU529aq0D/view?usp=sharing"
                         target="_blank"
@@ -41,7 +41,7 @@ export const HeaderSection = () => {
                             Contact me
                         </a>
                     </button>
-                </div>
+                </div> */}
             </div>
             <div className="col-span-5 place-self-center mt-4 lg:mt-0">
                 <div className="rounded-full w-[300px] h-[300px] relative">
