@@ -27,7 +27,7 @@ export const HeaderSection = () => {
                         repeat={Infinity}
                     /></h1>
                 <p className="text-[#ADB7BE] mb-6 textl-lg lg:text-xl">
-                    I&apos;m a Software Engineer</p>
+                    I&apos;m a System Engineering student</p>
                 {/* <div>
                     <a 
                         href="https://drive.google.com/file/d/1Rx3xPnwn3EVEn2nobzHQ6WRiU529aq0D/view?usp=sharing"
