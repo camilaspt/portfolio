@@ -46,9 +46,9 @@ const TAB_DATA: TabData[] = [
                 <i className="text-white">Remote</i>
                 <div className="mt-2">
                     ThinkSoft is a company that provides software solutions for the healthcare sector.
-                    I am part of the development team of the company&apos;s main product, which is a web application that allows
+                    I was part of the development team of the company&apos;s main product, which is a web application that allows
                     the management of medical centers, health plans and the financial part of the business.
-                    My work consist of developing new features, designing and implementing new modules, managing the database schema
+                    My work consisted of developing new features, designing and implementing new modules, managing the database schema
                     and fixing bugs. I also developed an interface with the company Philips for connect imaging diagnostic equipment with our app
                     using Mirth channels and HL7 Standards. <br></br>The tech stack consist of:
                     <ul className="list-disc list-inside"   >
